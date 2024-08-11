@@ -1,4 +1,4 @@
-// utils.js
+// ใช้ reduce เพื่อสร้างแผนที่ความถี่ (frequencyMap) ซึ่งเป็นออบเจ็กต์ที่เก็บจำนวนครั้งที่แต่ละตัวเลขปรากฏใน inputArray.
 export function sortByFrequencyAndValue(input) {
     const frequencyMap = input.reduce((acc, num) => {
       acc[num] = (acc[num] || 0) + 1;

@@ -36,7 +36,13 @@ button:hover {
   background-color: #0056b3;
 }
 
-.array-display, .sorted-display {
+.array-display{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.sorted-display {
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
